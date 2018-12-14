@@ -32,6 +32,9 @@ function initializeMap() {
     }
   });
 
+  map.load
+  
+  map.data.loadGeoJson('https://gist.githubusercontent.com/cak-opiq/0685cdd71daa2703ae0dc2541fae51b8/raw/12b76420a34aea34917e00cb8fcac776e7f4a1c5/KAL-hopList.json');
   // Define an info window to show event data.
   infoWindow = new google.maps.InfoWindow({
     pixelOffset: new google.maps.Size(0, -10),
